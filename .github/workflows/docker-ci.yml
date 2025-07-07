@@ -42,3 +42,5 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/ci-cd-docker-example:latest
+          
+
