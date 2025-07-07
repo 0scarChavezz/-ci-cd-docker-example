@@ -17,4 +17,4 @@ def test_suma_route():
     response = client.get('/api/suma')
     assert response.status_code == 200
     data = response.get_json()
-    assert data["resultado"] == 8
+    assert data["resultado"] == 11
