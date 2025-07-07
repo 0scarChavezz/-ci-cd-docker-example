@@ -7,7 +7,7 @@ def home():
 
 @app.route('/api/suma')
 def suma():
-    return jsonify({"resultado": 3 + 5})
+    return jsonify({"resultado": 3 + 8})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
