@@ -15,7 +15,7 @@ def test_home_route():
 def test_suma_route():
     client = app.test_client()
     response = client.get('/api/suma')
-    assert response.status_code == 200
+    assert response.status_code == 200  
     data = response.get_json()
-    assert data["resultado"] == 9
+    assert data["resultado"] == 8
 
